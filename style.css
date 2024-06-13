@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+} 
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+  
+  .profile-img {
+    height: 100px;
+    border-radius: 50%;
+  }
+  /*Header*/
+  .header {
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    z-index: 1000; 
+  }
+
+  .header .logo {
+    float: left;
+    margin-left: 20px;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+  }
+
+  .header .navbar {
+    float: left;
+    margin-left: 50px;
+  }
+
+  .header .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header .navbar ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  .header .navbar ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .header .search-bar {
+    float: right;
+    margin-right: 20px;
+  }
+
+  .header .search-bar input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 250px;
+  }
+
+  .header .search-bar button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
